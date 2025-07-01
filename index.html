@@ -1,7 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prosta Strona</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --header-bg: #f0f0f0;
+      --menu-bg: #e0e0e0;
+    }
+
+    body.dark {
+      --bg-color: #1e1e1e;
+      --text-color: #ffffff;
+      --header-bg: #2e2e2e;
+      --menu-bg: #3a3a3a;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--header-bg);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      background-color: var(--menu-bg);
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      color: var(--text-color);
+    }
+
+    nav button:hover {
+      text-decoration: underline;
+    }
+
+    #content {
+      padding: 2rem;
+      min-height: 200px;
+    }
+
+    .controls {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .toggle {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--text-color);
+      background: none;
+      color: var(--text-color);
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1 id="title">Moja Strona</h1>
+    <div class="controls">
+      <button class="toggle" onclick="toggleLang()">PL / EN</button>
+      <button class="toggle" onclick="toggleTheme()">🌞 / 🌙</button>
+    </div>
+  </header>
+
+  <nav>
+    <button onclick="setPage('home')">Strona główna</button>
+    <button onclick="setPage('about')">O nas</button>
+    <button onclick="setPage('services')">Usługi</button>
+    <button onclick="setPage('contact')">Kontakt</button>
+  </nav>
+
+  <div id="content">Witamy na naszej stronie!</div>
+
+  <script>
+    const translations = {
+      pl: {
+        title: "Moja Strona",
+        home: "Strona główna",
+        about: "O nas",
+        services: "Usługi",
+        contact: "Kontakt",
+        content: {
+          home: "Witamy na naszej stronie!",
+          about: "Jesteśmy firmą z wieloletnim doświadczeniem.",
+          services: "Oferujemy różne usługi dostosowane do Twoich potrzeb.",
+          contact: "Skontaktuj się z nami przez e-mail lub telefon."
+        }
+      },
+      en: {
+        title: "My Website",
+        home: "Home",
+        about: "About Us",
+        services: "Services",
+        contact: "Contact",
+        content: {
+          home: "Welcome to our website!",
+          about: "We are a company with years of experience.",
+          services: "We offer various services tailored to your needs.",
+          contact: "Contact us via email or phone."
+        }
+      }
+    };
+
+    let currentLang = "pl";
+    let currentPage = "home";
+
+    function setPage(page) {
+      currentPage = page;
+      updateContent();
+    }
+
+    function toggleLang() {
+      currentLang = currentLang === "pl" ? "en" : "pl";
+      updateNav();
+      updateContent();
+    }
+
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+
+    function updateNav() {
+      const t = translations[currentLang];
+      document.getElementById("title").textContent = t.title;
+      const navButtons = document.querySelectorAll("nav button");
+      navButtons[0].textContent = t.home;
+      navButtons[1].textContent = t.about;
+      navButtons[2].textContent = t.services;
+      navButtons[3].textContent = t.contact;
+    }
+
+    function updateContent() {
+      const t = translations[currentLang];
+      document.getElementById("content").textContent = t.content[currentPage];
+    }
+
+    // Inicjalizacja
+    updateNav();
+    updateContent();
+  </script>
 </body>
 </html>
