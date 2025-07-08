@@ -1,6 +1,6 @@
 
 let currentLang = "pl";
-let currentPage = "";
+let currentPage = "projects";
 
 function setPage(page) {
   currentPage = page;
