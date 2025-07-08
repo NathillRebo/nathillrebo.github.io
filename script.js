@@ -270,6 +270,9 @@ function updateContent() {
         ${t.content[currentPage]}
       </div>
     `;
+	{ else if currentPage === "static" {
+		return
+	}
   } else {
     main.textContent = t.content[currentPage];
   }
