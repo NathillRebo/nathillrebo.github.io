@@ -35,13 +35,13 @@ const translations = {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
-		  link: "/projects/hon_reborn.html"
+		  link: "project_hon_reborn.html"
         },
         {
           img: "img/3.png",
 		  name: "Crash Bandicoot: Back in Time",
           desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
-		  link: "/projects/crash_bandicoot_back_in_time.html"
+		  link: "project_crash_bandicoot_back_in_time.html"
         }
       ],
       personal: [
