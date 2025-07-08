@@ -29,7 +29,7 @@ const translations = {
           img: "img/1.png",
 		  name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
-		  link: "project_kongor.html"
+		  link: "project_project_kongor.html"
         },
         {
           img: "img/2.png",
