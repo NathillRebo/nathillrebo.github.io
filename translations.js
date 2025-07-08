@@ -1,17 +1,35 @@
+
 const translations = {
   pl: {
-    title: "Moja Strona",
+    title: "Daniel Marcinowski",
     projects: "Projekty",
     personal: "Własna twórczość",
     about: "O mnie",
     contact: "Kontakt",
     content: {
-      projects: [
+      about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać nową zawartość do tych gier, czasem zajmuje się projektowaniem nowych gier. Podczas swojej przygody z game designem udało mi się też zaprzjaźnić z kilkoma pro graczami, takimi jak what_you_got oraz Rajjix. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.`,
+      contact: `
+	  <div class="contact-card">
+		<div class="contact-left">
+		  <h2>Napisz do mnie</h2>
+		  <p>Jeśli masz pytania, propozycje współpracy lub po prostu chcesz się przywitać – nie wahaj się napisać!</p>
+		</div>
+		<div class="contact-right">
+		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
+			<input type="text" name="name" placeholder="Twoje imię" required>
+			<input type="email" name="email" placeholder="Twój email" required>
+			<textarea name="message" rows="5" placeholder="Wiadomość..." required></textarea>
+			<button type="submit">Wyślij</button>
+		  </form>
+		</div>
+	  </div>
+	`,
+       projects: [
         {
           img: "img/1.png",
 		  name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
-		  link: "/projects/project_kongor.html"
+		  link: "project_kongor.html"
         },
         {
           img: "img/2.png",
@@ -87,28 +105,11 @@ const translations = {
 		  desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
 		  link: "/personal/my_rpg.html"
 		}
-	  ],
-	  about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać nową zawartość do tych gier, czasem zajmuje się projektowaniem nowych gier. Podczas swojej przygody z game designem udało mi się też zaprzjaźnić z kilkoma pro graczami, takimi jak what_you_got oraz Rajjix. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.`,
-	  contact: `
-	  <div class="contact-card">
-		<div class="contact-left">
-		  <h2>Napisz do mnie</h2>
-		  <p>Jeśli masz pytania, propozycje współpracy lub po prostu chcesz się przywitać – nie wahaj się napisać!</p>
-		</div>
-		<div class="contact-right">
-		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
-			<input type="text" name="name" placeholder="Twoje imię" required>
-			<input type="email" name="email" placeholder="Twój email" required>
-			<textarea name="message" rows="5" placeholder="Wiadomość..." required></textarea>
-			<button type="submit">Wyślij</button>
-		  </form>
-		</div>
-	  </div>
-	`
-	}
+	  ]
+    }
   },
   en: {
-    title: "My Website",
+    title: "Daniel Marcinowski",
     projects: "Projects",
     personal: "Personal",
     about: "About",
@@ -216,66 +217,3 @@ const translations = {
     }
   }
 };
-
-let currentLang = "pl";
-let currentPage = "projects";
-
-function setPage(page) {
-  currentPage = page;
-  updateContent();
-}
-
-function toggleLang() {
-  currentLang = currentLang === "pl" ? "en" : "pl";
-  updateNav();
-  updateContent();
-}
-
-function toggleTheme() {
-  document.body.classList.toggle("dark");
-}
-
-function updateNav() {
-  const t = translations[currentLang];
-  document.getElementById("title").textContent = t.title;
-  const navButtons = document.querySelectorAll("nav button");
-  navButtons[0].textContent = t.projects;
-  navButtons[1].textContent = t.personal;
-  navButtons[2].textContent = t.about;
-  navButtons[3].textContent = t.contact;
-}
-
-function updateContent() {
-  const t = translations[currentLang];
-  const main = document.getElementById("content");
-
-  if (currentPage === "projects" || currentPage === "personal") {
-    const items = t.content[currentPage];
-    main.innerHTML = `
-      <div class="item-list">
-        ${items.map((item, i) => `
-          <div class="item animate" style="animation-delay: ${i * 0.125}s">
-            <img src="${item.img}" alt="">
-            <div class="item-text">
-              <a href="${item.link}">${item.name}</a>
-              <p>${item.desc}</p>
-            </div>
-          </div>
-        `).join("")}
-      </div>
-    `;
-  } else if (currentPage === "about" || currentPage === "contact") {
-    main.innerHTML = `
-      <div class="card">
-        ${t.content[currentPage]}
-      </div>
-    `;
-  } else {
-    return;
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  updateNav();
-  updateContent();
-});
