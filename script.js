@@ -11,19 +11,19 @@ const translations = {
           img: "img/1.png",
 		  name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
-		  link: "/projects/Project_Kongor.html"
+		  link: "/projects/project_kongor.html"
         },
         {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
-		  link: "/projects/Heroes_of_Newerth_Reborn.html"
+		  link: "/projects/hon_reborn.html"
         },
         {
           img: "img/3.png",
 		  name: "Crash Bandicoot: Back in Time",
           desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
-		  link: "/projects/Crash_Bandicoot_Back_in_Time.html"
+		  link: "/projects/crash_bandicoot_back_in_time.html"
         }
       ],
       personal: [
@@ -119,19 +119,19 @@ const translations = {
           img: "img/1.png",
 		  name: "Project Kongor",
           desc: "Heroes of Newerth private server, with ~760000 registered accounts and ~10000 players online at peak moments.",
-		  link: "/projects/Project_Kongor.html"
+		  link: "/projects/project_kongor.html"
         },
         {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn is a remaster of the original Heroes of Newerth (HoN), once a rival to games like DotA and League of Legends. Developed by Kongor Studios - made up of former S2 Games developers and community members - the game is built on the new Juvio Engine, offering improved graphics, performance and a better multiplayer experience compared to its predecessor.",
-		  link: "/projects/Project_Kongor.html"
+		  link: "/projects/hon_reborn.html"
         },
         {
           img: "img/3.png",
 		  name: "Crash Bandicoot: Back in Time",
           desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a level editor.",
-		  link: "/projects/Crash_Bandicoot_Back_in_Time.html"
+		  link: "/projects/crash_bandicoot_back_in_time.html"
         }
       ],
       personal: [
