@@ -9,16 +9,19 @@
 </head>
 <body>
   <header>
-    <h1 id="title">Moja Strona</h1>
-    <nav>
-      <button onclick="setPage('projects')">Projekty</button>
-      <button onclick="setPage('personal')">Własna twórczość</button>
-      <button onclick="setPage('about')">O mnie</button>
-      <button onclick="setPage('contact')">Kontakt</button>
-      <button onclick="toggleLang()">🇵🇱/🇬🇧</button>
-      <button onclick="toggleTheme()">🌗</button>
-    </nav>
+    <h1 id="title">Daniel Marcinowski</h1>
+    <div class="controls">
+      <button class="toggle" onclick="toggleLang()">PL / EN</button>
+      <button class="toggle" onclick="toggleTheme()">🌞 / 🌙</button>
+    </div>
   </header>
+
+  <nav>
+    <button onclick="setPage('projects')"><span>Projekty</span></button>
+    <button onclick="setPage('personal')"><span>Własna twórczość</span></button>
+    <button onclick="setPage('about')"><span>O mnie</span></button>
+    <button onclick="setPage('contact')"><span>Kontakt</span></button>
+  </nav>
 
   <main id="desc">
     <div class="project-page">
