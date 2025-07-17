@@ -61,6 +61,19 @@ function updateContent() {
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
       });
+  } else if (currentPage.startsWith("personal_")) {
+    const file = `/personal/${currentPage}.html`;
+    fetch(file)
+      .then(res => {
+        if (!res.ok) throw new Error("Nie znaleziono pliku");
+        return res.text();
+      })
+      .then(html => {
+        main.innerHTML = html;
+      })
+      .catch(err => {
+        main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
+      });
   } else {
     main.innerHTML = "<p>Nieznana strona.</p>";
   }
