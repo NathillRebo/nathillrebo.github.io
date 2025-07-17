@@ -79,19 +79,19 @@ const translations = {
 		  img: "img/cards_of_war.png",
 		  name: "Cards of War",
 		  desc: "Gra karciana, podobna do gry Hearthstone, ale z innym systemem many oraz planszą, po której jednostki się przemieszczają.",
-		  link: "/personal/warcraft_random_arena.html"
+		  link: "/personal/cards_of_war.html"
 		},
 		{
 		  img: "img/talisman.png",
 		  name: "Talisman Content Pack",
 		  desc: "Zestaw dodatkowych komponentów do gry, takich jak karty Poszukiwaczy, Zaklęć, Przedmiotów, Zakończeń, Przygody i innych.",
-		  link: "/personal/warcraft_random_arena.html"
+		  link: "/personal/talisman.html"
 		},
 		{
 		  img: "img/heroes_v.png",
 		  name: "Heroes of Might and Magic 5.5 Hero Pack",
 		  desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
-		  link: "/personal/warcraft_random_arena.html"
+		  link: "/personal/heroes_vv.html"
 		},
 		{
 		  img: "img/warhammer_dark_heresy_2nd.png",
