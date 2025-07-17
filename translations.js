@@ -67,7 +67,7 @@ const translations = {
 		  img: "img/happyland.png",
 		  name: "Happyland Adventures Map Pack",
 		  desc: "Zestaw poziomów do gry Happyland Adventures, ze zwiększającym się poziomem trudności.",
-		  link: "personal_happyland.html"
+		  link: "personal_happyland_adventures.html"
 		},
 		{
 		  img: "img/warcraft_random_arena.png",
