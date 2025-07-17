@@ -56,7 +56,7 @@ function updateContent() {
         return res.text();
       })
       .then(html => {
-        main.innerHTML = html;
+        main.innerHTML = `<div class="project-wrapper">${html}</div>`;
       })
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
@@ -69,7 +69,7 @@ function updateContent() {
         return res.text();
       })
       .then(html => {
-        main.innerHTML = html;
+        main.innerHTML = `<div class="project-wrapper">${html}</div>`;
       })
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
