@@ -46,8 +46,10 @@ function updateContent() {
         `).join("")}
       </div>
     `;
+		addFooter();
   } else if (currentPage === "about" || currentPage === "contact") {
-    main.innerHTML = `<div class="card">${t.content[currentPage]}</div>`;
+    main.innerHTML = `<div class="card">${t.content[currentPage]}</div>
+`;
   } else if (currentPage.startsWith("project_")) {
     const file = `/projects/${currentPage}.html`;
     fetch(file)
@@ -61,6 +63,7 @@ function updateContent() {
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
       });
+		addFooter();
   } else if (currentPage.startsWith("personal_")) {
     const file = `/personal/${currentPage}.html`;
     fetch(file)
@@ -74,8 +77,19 @@ function updateContent() {
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
       });
+		addFooter();
   } else {
     main.innerHTML = "<p>Nieznana strona.</p>";
+		addFooter();
+  }
+}
+
+function addFooter() {
+  if (!document.getElementById("footer")) {
+    const footer = document.createElement("footer");
+    footer.id = "footer";
+    footer.innerHTML = `<p>&copy; 2025 Stopka</p>`;
+    document.body.appendChild(footer);
   }
 }
 
