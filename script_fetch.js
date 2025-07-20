@@ -11,25 +11,29 @@ function toggleLang() {
   currentLang = currentLang === "pl" ? "en" : "pl";
   updateNav();
 
-  if (currentPage.startsWith("project_")) {
-    const allProjects = translations.pl.content.projects.concat(translations.en.content.projects);
-    const project = allProjects.find(p => {
-      const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
-      return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
-    });
+  const type = currentPage.startsWith("project_")
+    ? "projects"
+    : currentPage.startsWith("personal_")
+    ? "personal"
+    : null;
 
-    if (project && typeof project.link === 'object') {
-      currentPage = getPageId(project.link[currentLang]);
-    }
-  } else if (currentPage.startsWith("personal_")) {
-    const allPersonal = translations.pl.content.personal.concat(translations.en.content.personal);
-    const personal = allPersonal.find(p => {
-      const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
-      return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
-    });
+  if (type) {
+    const allItems = translations.pl.content[type].concat(translations.en.content[type]);
 
-    if (personal && typeof personal.link === 'object') {
-      currentPage = getPageId(personal.link[currentLang]);
+    const currentItem = allItems.find(item =>
+      getPageId(item.link) === currentPage
+    );
+
+    if (currentItem) {
+      const baseName = currentItem.link.replace(/_(pl|en)\.html$/, "");
+
+      const match = translations[currentLang].content[type].find(item =>
+        item.link.startsWith(baseName)
+      );
+
+      if (match) {
+        currentPage = getPageId(match.link);
+      }
     }
   }
 
