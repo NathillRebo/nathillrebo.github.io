@@ -54,8 +54,21 @@ function updateContent() {
   } else if (currentPage === "about" || currentPage === "contact") {
     main.innerHTML = `<div class="card">${t.content[currentPage]}</div>
 `;
-  } else if (currentPage.startsWith("project_")) {
-    const file = `/projects/${currentPage}.html`;
+   } else if (currentPage.startsWith("project_")) {
+    const allProjects = translations.pl.content.projects.concat(translations.en.content.projects);
+    const project = allProjects.find(p => {
+      const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
+      return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
+    });
+
+    let file;
+    if (project) {
+      const linkObj = typeof project.link === 'object' ? project.link : { pl: project.link, en: project.link };
+      file = `/projects/${linkObj[currentLang]}`;
+    } else {
+      file = `/projects/${currentPage}.html`; // fallback
+    }
+
     fetch(file)
       .then(res => {
         if (!res.ok) throw new Error("Nie znaleziono pliku");
@@ -67,22 +80,37 @@ function updateContent() {
       .catch(err => {
         main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
       });
-		addFooter();
+
+    addFooter();
   } else if (currentPage.startsWith("personal_")) {
-    const file = `/personal/${currentPage}.html`;
-    fetch(file)
-      .then(res => {
-        if (!res.ok) throw new Error("Nie znaleziono pliku");
-        return res.text();
-      })
-      .then(html => {
-        main.innerHTML = `<div class="project-wrapper">${html}</div>`;
-      })
-      .catch(err => {
-        main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
-      });
+		const allPersonal = translations.pl.content.personal.concat(translations.en.content.personal);
+		const personal = allPersonal.find(p => {
+			const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
+			return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
+		});
+
+		let file;
+		if (personal) {
+			const linkObj = typeof personal.link === 'object' ? personal.link : { pl: personal.link, en: personal.link };
+			file = `/personal/${linkObj[currentLang]}`;
+		} else {
+			file = `/personal/${currentPage}.html`; // fallback
+		}
+
+		fetch(file)
+			.then(res => {
+				if (!res.ok) throw new Error("Nie znaleziono pliku");
+				return res.text();
+			})
+			.then(html => {
+				main.innerHTML = `<div class="project-wrapper">${html}</div>`;
+			})
+			.catch(err => {
+				main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
+			});
+
 		addFooter();
-  } else {
+	} else {
     main.innerHTML = "<p>Nieznana strona.</p>";
 		addFooter();
   }
