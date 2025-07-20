@@ -30,7 +30,7 @@ const translations = {
 		  name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
 		  link: {
-				pl: "project_project_kongor.html"
+				pl: "project_project_kongor.html",
 				en: "project_project_kongor.html"
         },
         {
@@ -38,7 +38,7 @@ const translations = {
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
 		  link: {
-				pl: "project_hon_reborn.html"
+				pl: "project_hon_reborn.html",
 				en: "project_hon_reborn.html"
         },
         {
@@ -57,7 +57,7 @@ const translations = {
 		  name: "Griftlands Content Pack",
 		  desc: "Zestaw nowych bossów, kart, wszczepów i talentów do wyboru do gry Griftlands.",
 		  link: {
-				pl: "personal_griftlands.html"
+				pl: "personal_griftlands.html",
 				en: "personal_griftlands.html"
 		},
 		{
@@ -65,7 +65,7 @@ const translations = {
 		  name: "Darkest Dungeon Trinkets Pack",
 		  desc: "Zestaw ponad 300 nowych przedmiotów do gry Darkest Dungeon.",
 		  link: {
-				pl: "personal_darkest_dungeon.html"
+				pl: "personal_darkest_dungeon.html",
 				en: "personal_darkest_dungeon.html"
 		},
 		{
@@ -73,7 +73,7 @@ const translations = {
 		  name: "Heroes of Newerth Custom Pack",
 		  desc: "Zestaw własnych bohaterów i przedmiotów do gry Heroes of Newerth.",
 		  link: {
-				pl: "personal_heroes_of_newerth.html"
+				pl: "personal_heroes_of_newerth.html",
 				en: "personal_heroes_of_newerth.html"
 		},
 		{
@@ -81,7 +81,7 @@ const translations = {
 		  name: "Happyland Adventures Map Pack",
 		  desc: "Zestaw poziomów do gry Happyland Adventures, ze zwiększającym się poziomem trudności.",
 		  link: {
-				pl: "personal_happyland_adventures.html"
+				pl: "personal_happyland_adventures.html",
 				en: "personal_happyland_adventures.html"
 		},
 		{
@@ -89,7 +89,7 @@ const translations = {
 		  name: "Warcraft III Random Arena",
 		  desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
 		  link: {
-				pl: "personal_warcraft_random_arena.html"
+				pl: "personal_warcraft_random_arena.html",
 				en: "personal_warcraft_random_arena.html"
 		},
 		{
@@ -97,7 +97,7 @@ const translations = {
 		  name: "Cards of War",
 		  desc: "Gra karciana, podobna do gry Hearthstone, ale z innym systemem many oraz planszą, po której jednostki się przemieszczają.",
 		  link: {
-				pl: "personal_cards_of_war.html"
+				pl: "personal_cards_of_war.html",
 				en: "personal_cards_of_war.html"
 		},
 		{
@@ -105,7 +105,7 @@ const translations = {
 		  name: "Talisman Content Pack",
 		  desc: "Zestaw dodatkowych komponentów do gry, takich jak karty Poszukiwaczy, Zaklęć, Przedmiotów, Zakończeń, Przygody i innych.",
 		  link: {
-				pl: "personal_talisman.html"
+				pl: "personal_talisman.html",
 				en: "personal_talisman.html"
 		},
 		{
@@ -113,7 +113,7 @@ const translations = {
 		  name: "Heroes of Might and Magic 5.5 Hero Pack",
 		  desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
 		  link: {
-				pl: "personal_heroes_vv.html"
+				pl: "personal_heroes_vv.html",
 				en: "personal_heroes_vv.html"
 		},
 		{
@@ -121,7 +121,7 @@ const translations = {
 		  name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
 		  desc: "Skoroszyt z tabelami do gry, z dodatkowymi opcjami do tworzenia postaci oraz nowymi przedmiotami.",
 		  link: {
-				pl: "personal_warhammer_dark_heresy_2nd.html"
+				pl: "personal_warhammer_dark_heresy_2nd.html",
 				en: "personal_warhammer_dark_heresy_2nd.html"
 		},
 		{
@@ -129,7 +129,7 @@ const translations = {
 		  name: "Custom Tabletop RPG System",
 		  desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
 		  link: {
-				pl: "personal_my_rpg.html"
+				pl: "personal_my_rpg.html",
 				en: "personal_my_rpg.html"
 		}
 	  ]
@@ -148,14 +148,16 @@ const translations = {
 		  name: "Project Kongor",
           desc: "Heroes of Newerth private server, with ~760000 registered accounts and ~10000 players online at peak moments.",
 		  link: {
-				pl: "project_project_kongor.html"
+				pl: "project_project_kongor.html",
+				en: "project_project_kongor.html"
         },
         {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn is a remaster of the original Heroes of Newerth (HoN), once a rival to games like DotA and League of Legends. Developed by Kongor Studios - made up of former S2 Games developers and community members - the game is built on the new Juvio Engine, offering improved graphics, performance and a better multiplayer experience compared to its predecessor.",
 		  link: {
-				pl: "project_hon_reborn.html"
+				pl: "project_hon_reborn.html",
+				en: "project_hon_reborn.html"
         },
         {
           img: "img/3.png",
@@ -174,6 +176,7 @@ const translations = {
 		  desc: "A pack of new bosses, grafts, perks, cards and upgrades.",
 		  link: {
 				pl: "personal_griftlands.html"
+,				en: "personal_griftlands.html"
 		},
 		{
 		  img: "img/darkest_dungeon.png",
@@ -181,6 +184,7 @@ const translations = {
 		  desc: "A pack of over 300 custom trinkets.",
 		  link: {
 				pl: "personal_darkest_dungeon.html"
+,				en: "personal_darkest_dungeon.html"
 		},
 		{
 		  img: "img/heroes_of_newerth.png",
@@ -188,6 +192,7 @@ const translations = {
 		  desc: "A pack of custom items and heroes.",
 		  link: {
 				pl: "personal_heroes_of_newerth.html"
+,				en: "personal_heroes_of_newerth.html"
 		},
 		{
 		  img: "img/happyland.png",
@@ -195,6 +200,7 @@ const translations = {
 		  desc: "A pack of several levels of increasing difficulty.",
 		  link: {
 				pl: "personal_happyland.html"
+,				en: "personal_happyland.html"
 		},
 		{
 		  img: "img/warcraft_random_arena.png",
@@ -202,6 +208,7 @@ const translations = {
 		  desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
 		  link: {
 				pl: "personal_warcraft_random_arena.html"
+,				en: "personal_warcraft_random_arena.html"
 		},
 		{
 		  img: "img/cards_of_war.png",
@@ -209,6 +216,7 @@ const translations = {
 		  desc: "A card game for up to 6 players, where each player plays their units and moves them towards their enemies to defeat them. Hearthstone with board.",
 		  link: {
 				pl: "personal_warcraft_random_arena.html"
+,				en: "personal_warcraft_random_arena.html"
 		},
 		{
 		  img: "img/talisman.png",
@@ -216,6 +224,7 @@ const translations = {
 		  desc: "A pack of new characters, adventure cards, dungeon adventure cards, spells, items, endings and other in-game components.",
 		  link: {
 				pl: "personal_warcraft_random_arena.html"
+,				en: "personal_warcraft_random_arena.html"
 		},
 		{
 		  img: "img/heroes_v.png",
@@ -223,6 +232,7 @@ const translations = {
 		  desc: "A pack ofcustom heroes, many of them with unique specialties.",
 		  link: {
 				pl: "personal_warcraft_random_arena.html"
+,				en: "personal_warcraft_random_arena.html"
 		},
 		{
 		  img: "img/warhammer_dark_heresy_2nd.png",
@@ -230,6 +240,7 @@ const translations = {
 		  desc: "A spreadsheet with multiple additional character creation options and items.",
 		  link: {
 				pl: "personal_warhammer_dark_heresy_2nd.html"
+,				en: "personal_warhammer_dark_heresy_2nd.html"
 		},
 		{
 		  img: "img/my_rpg.png",
@@ -237,6 +248,7 @@ const translations = {
 		  desc: "A tabletop PRG for a magic post-apocalyptic setting with system focusing on unique weapons and creative crafting.",
 		  link: {
 				pl: "personal_my_rpg.html"
+,				en: "personal_my_rpg.html"
 		}
 	  ],
       about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and drawing tables with parameters of given game elements. I got into game design when I got acquainted with Warcraft III and together with my friends we played maps, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as what_you_got and Rajjix. My favorite games are tactical games, turn-based games and games that can be expanded with additional content.",
