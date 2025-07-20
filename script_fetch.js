@@ -11,6 +11,10 @@ function toggleLang() {
   currentLang = currentLang === "pl" ? "en" : "pl";
   updateNav();
   updateContent();
+
+  if (currentPage.startsWith("project_") || currentPage.startsWith("personal_")) {
+    setPage(currentPage);
+  }
 }
 
 function toggleTheme() {
