@@ -145,7 +145,7 @@ function addFooter() {
 }
 
 function getPageId(link) {
-  return link.split('/').pop().replace('.html', '');
+  return link.split("/").pop().replace(".html", "");
 }
 
 document.addEventListener("DOMContentLoaded", () => {

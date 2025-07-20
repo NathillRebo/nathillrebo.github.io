@@ -41,7 +41,10 @@ const translations = {
           img: "img/3.png",
 		  name: "Crash Bandicoot: Back in Time",
           desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
-		  link: "project_crash_bandicoot_back_in_time_pl.html"
+		  link: {
+				pl: "project_crash_bandicoot_back_in_time_pl.html",
+				en: "project_crash_bandicoot_back_in_time_en.html"
+			}
         }
       ],
       personal: [
@@ -132,7 +135,10 @@ const translations = {
           img: "img/3.png",
 		  name: "Crash Bandicoot: Back in Time",
           desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a level editor.",
-		  link: "project_crash_bandicoot_back_in_time_en.html"
+		  link: {
+				pl: "project_crash_bandicoot_back_in_time_pl.html",
+				en: "project_crash_bandicoot_back_in_time_en.html"
+			}
         }
       ],
       personal: [
