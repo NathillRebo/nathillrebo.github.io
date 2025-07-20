@@ -10,11 +10,30 @@ function setPage(page) {
 function toggleLang() {
   currentLang = currentLang === "pl" ? "en" : "pl";
   updateNav();
-  updateContent();
 
-  if (currentPage.startsWith("project_") || currentPage.startsWith("personal_")) {
-    setPage(currentPage);
+  if (currentPage.startsWith("project_")) {
+    const allProjects = translations.pl.content.projects.concat(translations.en.content.projects);
+    const project = allProjects.find(p => {
+      const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
+      return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
+    });
+
+    if (project && typeof project.link === 'object') {
+      currentPage = getPageId(project.link[currentLang]);
+    }
+  } else if (currentPage.startsWith("personal_")) {
+    const allPersonal = translations.pl.content.personal.concat(translations.en.content.personal);
+    const personal = allPersonal.find(p => {
+      const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
+      return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
+    });
+
+    if (personal && typeof personal.link === 'object') {
+      currentPage = getPageId(personal.link[currentLang]);
+    }
   }
+
+  updateContent();
 }
 
 function toggleTheme() {
