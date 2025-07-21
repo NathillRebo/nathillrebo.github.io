@@ -161,3 +161,50 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   updateContent();
 });
+
+document.addEventListener("click", function (e) {
+  const target = e.target;
+
+  // Obsługa tylko obrazów z klasy .project-image
+  if (target.tagName === "IMG" && target.classList.contains("project-image")) {
+    showFullImage(target.src);
+  }
+
+  // Zamknięcie po kliknięciu
+  if (
+    target.classList.contains("image-overlay") ||
+    target.classList.contains("full-image")
+  ) {
+    closeFullImage();
+  }
+});
+
+function showFullImage(src) {
+  if (document.querySelector(".image-overlay")) return; // już otwarte
+
+  const overlay = document.createElement("div");
+  overlay.className = "image-overlay";
+
+  const img = document.createElement("img");
+  img.className = "full-image";
+  img.src = src;
+
+  overlay.appendChild(img);
+  document.body.appendChild(overlay);
+}
+
+function closeFullImage() {
+  const overlay = document.querySelector(".image-overlay");
+  if (overlay) {
+    const img = overlay.querySelector("img.full-image");
+    if (img) {
+      img.style.animation = "zoomOut 0.3s ease forwards";
+    }
+    overlay.style.animation = "fadeOutOverlay 0.3s ease forwards";
+
+    // Usuń element po animacji
+    setTimeout(() => {
+      overlay.remove();
+    }, 300);
+  }
+}
