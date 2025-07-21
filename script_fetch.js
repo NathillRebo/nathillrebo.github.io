@@ -165,12 +165,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("click", function (e) {
   const target = e.target;
 
-  // Obsługa tylko obrazów z klasy .project-image
-  if (target.tagName === "IMG" && target.classList.contains("project-image")) {
+  if (
+    target.tagName === "IMG" &&
+    (target.classList.contains("project-image") || target.classList.contains("gallery-image"))
+  ) {
     showFullImage(target.src);
   }
 
-  // Zamknięcie po kliknięciu
   if (
     target.classList.contains("image-overlay") ||
     target.classList.contains("full-image")
