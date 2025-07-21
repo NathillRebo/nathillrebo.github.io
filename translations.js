@@ -35,7 +35,7 @@ const translations = {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
-		  link: "project_hon_reborn.html"
+		  link: "project_hon_reborn_pl.html"
         },
         {
           img: "img/3.png",
@@ -126,7 +126,7 @@ const translations = {
           img: "img/2.png",
 		  name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn is a remaster of the original Heroes of Newerth (HoN), once a rival to games like DotA and League of Legends. Developed by Kongor Studios - made up of former S2 Games developers and community members - the game is built on the new Juvio Engine, offering improved graphics, performance and a better multiplayer experience compared to its predecessor.",
-		  link: "project_hon_reborn.html"
+		  link: "project_hon_reborn_en.html"
         },
         {
           img: "img/3.png",
