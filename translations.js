@@ -18,7 +18,7 @@ const translations = {
 		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
 			<input type="text" name="name" placeholder="Twoje imię" required>
 			<input type="email" name="email" placeholder="Twój email" required>
-			<textarea name="message" rows="5" placeholder="Wiadomość..." required></textarea>
+			<textarea name="message" rows="6" placeholder="Wiadomość..." required></textarea>
 			<button type="submit">Wyślij</button>
 		  </form>
 		</div>
@@ -32,13 +32,13 @@ const translations = {
 					link: "project_project_kongor_pl.html"
         },
         {
-          img: "img/2.png",
+          img: "/img/hon_reborn.png",
 					name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
 					link: "project_hon_reborn_pl.html"
         },
         {
-          img: "img/3.png",
+          img: "/img/crash_bandicoot_back_in_time.png",
 					name: "Crash Bandicoot: Back in Time",
 					desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
 					link: "project_crash_bandicoot_back_in_time_pl.html"
@@ -70,7 +70,7 @@ const translations = {
 					link: "personal_happyland_adventures_pl.html"
 				},
 				{
-					img: "img/warcraft_random_arena.png",
+					img: "img/warcraft_3.png",
 					name: "Warcraft III Random Arena",
 					desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
 					link: "personal_warcraft_random_arena.html"
@@ -88,7 +88,7 @@ const translations = {
 					link: "personal_talisman.html"
 				},
 				{
-					img: "img/heroes_v.png",
+					img: "img/heroes_vv.png",
 					name: "Heroes of Might and Magic 5.5 Hero Pack",
 					desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
 					link: "personal_heroes_vv.html"
@@ -123,13 +123,13 @@ const translations = {
 					link: "project_project_kongor_en.html"
         },
         {
-          img: "img/2.png",
+          img: "/img/hon_reborn.png",
 					name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn is a remaster of the original Heroes of Newerth (HoN), once a rival to games like DotA and League of Legends. Developed by Kongor Studios - made up of former S2 Games developers and community members - the game is built on the new Juvio Engine, offering improved graphics, performance and a better multiplayer experience compared to its predecessor.",
 					link: "project_hon_reborn_en.html"
         },
         {
-          img: "img/3.png",
+          img: "/img/crash_bandicoot_back_in_time.png",
 					name: "Crash Bandicoot: Back in Time",
           desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a level editor.",
 					link: "project_crash_bandicoot_back_in_time_en.html"
@@ -161,7 +161,7 @@ const translations = {
 					link: "personal_happyland_adventures_en.html"
 				},
 				{
-					img: "img/warcraft_random_arena.png",
+					img: "img/warcraft_3.png",
 					name: "Warcraft III Random Arena",
 					desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
 					link: "personal_warcraft_random_arena.html"
@@ -179,7 +179,7 @@ const translations = {
 					link: "personal_warcraft_random_arena.html"
 				},
 				{
-					img: "img/heroes_v.png",
+					img: "img/heroes_vv.png",
 					name: "Heroes of Might and Magic 5.5 Hero Pack",
 					desc: "A pack ofcustom heroes, many of them with unique specialties.",
 					link: "personal_warcraft_random_arena.html"
@@ -208,7 +208,7 @@ const translations = {
 		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
 			<input type="text" name="name" placeholder="Your name" required>
 			<input type="email" name="email" placeholder="Your email" required>
-			<textarea name="message" rows="5" placeholder="Message..." required></textarea>
+			<textarea name="message" rows="6" placeholder="Message..." required></textarea>
 			<button type="submit">Send</button>
 		  </form>
 		</div>
