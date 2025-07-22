@@ -49,7 +49,7 @@ const translations = {
 					img: "img/griftlands.png",
 					name: "Griftlands Content Pack",
 					desc: "Zestaw nowych bossów, kart, wszczepów i talentów do wyboru do gry Griftlands.",
-					link: "personal_griftlands.html"
+					link: "personal_griftlands_pl.html"
 				},
 				{
 					img: "img/darkest_dungeon.png",
@@ -97,7 +97,7 @@ const translations = {
 					img: "img/warhammer_dark_heresy_2nd.png",
 					name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
 					desc: "Skoroszyt z tabelami do gry, z dodatkowymi opcjami do tworzenia postaci oraz nowymi przedmiotami.",
-					link: "personal_warhammer_dark_heresy_2nd.html"
+					link: "personal_warhammer_dark_heresy_2nd_pl.html"
 				},
 				{
 					img: "img/my_rpg.png",
@@ -118,85 +118,85 @@ const translations = {
       projects: [
         {
           img: "img/1.png",
-		  name: "Project Kongor",
+					name: "Project Kongor",
           desc: "Heroes of Newerth private server, with ~760000 registered accounts and ~10000 players online at peak moments.",
-		  link: "project_project_kongor_en.html"
+					link: "project_project_kongor_en.html"
         },
         {
           img: "img/2.png",
-		  name: "Heroes of Newerth: Reborn",
+					name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn is a remaster of the original Heroes of Newerth (HoN), once a rival to games like DotA and League of Legends. Developed by Kongor Studios - made up of former S2 Games developers and community members - the game is built on the new Juvio Engine, offering improved graphics, performance and a better multiplayer experience compared to its predecessor.",
-		  link: "project_hon_reborn_en.html"
+					link: "project_hon_reborn_en.html"
         },
         {
           img: "img/3.png",
-		  name: "Crash Bandicoot: Back in Time",
+					name: "Crash Bandicoot: Back in Time",
           desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a level editor.",
-		  link: "project_crash_bandicoot_back_in_time_en.html"
+					link: "project_crash_bandicoot_back_in_time_en.html"
         }
       ],
       personal: [
-		{
-		  img: "img/griftlands.png",
-		  name: "Griftlands Content Pack",
-		  desc: "A pack of new bosses, grafts, perks, cards and upgrades.",
-		  link: "personal_griftlands.html"
-		},
-		{
-		  img: "img/darkest_dungeon.png",
-		  name: "Darkest Dungeon Trinkets Pack",
-		  desc: "A pack of over 300 custom trinkets.",
-		  link: "personal_darkest_dungeon.html"
-		},
-		{
-		  img: "img/heroes_of_newerth.png",
-		  name: "Heroes of Newerth Custom Pack",
-		  desc: "A pack of custom items and heroes.",
-		  link: "personal_heroes_of_newerth_en.html"
-		},
-		{
-		  img: "img/happyland.png",
-		  name: "Happyland Adventures Map Pack",
-		  desc: "A pack of several levels of increasing difficulty.",
-		  link: "personal_happyland_adventures_en.html"
-		},
-		{
-		  img: "img/warcraft_random_arena.png",
-		  name: "Warcraft III Random Arena",
-		  desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
-		  link: "personal_warcraft_random_arena.html"
-		},
-		{
-		  img: "img/cards_of_war.png",
-		  name: "Cards of War",
-		  desc: "A card game for up to 6 players, where each player plays their units and moves them towards their enemies to defeat them. Hearthstone with board.",
-		  link: "personal_warcraft_random_arena.html"
-		},
-		{
-		  img: "img/talisman.png",
-		  name: "Talisman Content Pack",
-		  desc: "A pack of new characters, adventure cards, dungeon adventure cards, spells, items, endings and other in-game components.",
-		  link: "personal_warcraft_random_arena.html"
-		},
-		{
-		  img: "img/heroes_v.png",
-		  name: "Heroes of Might and Magic %.5 Hero Pack",
-		  desc: "A pack ofcustom heroes, many of them with unique specialties.",
-		  link: "personal_warcraft_random_arena.html"
-		},
-		{
-		  img: "img/warhammer_dark_heresy_2nd.png",
-		  name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
-		  desc: "A spreadsheet with multiple additional character creation options and items.",
-		  link: "personal_warhammer_dark_heresy_2nd.html"
-		},
-		{
-		  img: "img/my_rpg.png",
-		  name: "Custom Tabletop RPG System",
-		  desc: "A tabletop PRG for a magic post-apocalyptic setting with system focusing on unique weapons and creative crafting.",
-		  link: "personal_my_rpg.html"
-		}
-	  ],
+				{
+					img: "img/griftlands.png",
+					name: "Griftlands Content Pack",
+					desc: "A pack of new bosses, grafts, perks, cards and upgrades.",
+					link: "personal_griftlands_en.html"
+				},
+				{
+					img: "img/darkest_dungeon.png",
+					name: "Darkest Dungeon Trinkets Pack",
+					desc: "A pack of over 300 custom trinkets.",
+					link: "personal_darkest_dungeon.html"
+				},
+				{
+					img: "img/heroes_of_newerth.png",
+					name: "Heroes of Newerth Custom Pack",
+					desc: "A pack of custom items and heroes.",
+					link: "personal_heroes_of_newerth_en.html"
+				},
+				{
+					img: "img/happyland.png",
+					name: "Happyland Adventures Map Pack",
+					desc: "A pack of several levels of increasing difficulty.",
+					link: "personal_happyland_adventures_en.html"
+				},
+				{
+					img: "img/warcraft_random_arena.png",
+					name: "Warcraft III Random Arena",
+					desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
+					link: "personal_warcraft_random_arena.html"
+				},
+				{
+					img: "img/cards_of_war.png",
+					name: "Cards of War",
+					desc: "A card game for up to 6 players, where each player plays their units and moves them towards their enemies to defeat them. Hearthstone with board.",
+					link: "personal_warcraft_random_arena.html"
+				},
+				{
+					img: "img/talisman.png",
+					name: "Talisman Content Pack",
+					desc: "A pack of new characters, adventure cards, dungeon adventure cards, spells, items, endings and other in-game components.",
+					link: "personal_warcraft_random_arena.html"
+				},
+				{
+					img: "img/heroes_v.png",
+					name: "Heroes of Might and Magic %.5 Hero Pack",
+					desc: "A pack ofcustom heroes, many of them with unique specialties.",
+					link: "personal_warcraft_random_arena.html"
+				},
+				{
+					img: "img/warhammer_dark_heresy_2nd.png",
+					name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
+					desc: "A spreadsheet with multiple additional character creation options and items.",
+					link: "personal_warhammer_dark_heresy_2nd_en.html"
+				},
+				{
+					img: "img/my_rpg.png",
+					name: "Custom Tabletop RPG System",
+					desc: "A tabletop PRG for a magic post-apocalyptic setting with system focusing on unique weapons and creative crafting.",
+					link: "personal_my_rpg.html"
+				}
+			],
       about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and drawing tables with parameters of given game elements. I got into game design when I got acquainted with Warcraft III and together with my friends we played maps, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as what_you_got and Rajjix. My favorite games are tactical games, turn-based games and games that can be expanded with additional content.",
       contact: `
 	  <div class="contact-card">
