@@ -61,7 +61,7 @@ const translations = {
 					img: "img/heroes_of_newerth.png",
 					name: "Heroes of Newerth Custom Pack",
 					desc: "Zestaw własnych bohaterów i przedmiotów do gry Heroes of Newerth.",
-					link: "personal_heroes_of_newerth.html"
+					link: "personal_heroes_of_newerth_pl.html"
 				},
 				{
 					img: "img/happyland.png",
@@ -152,7 +152,7 @@ const translations = {
 		  img: "img/heroes_of_newerth.png",
 		  name: "Heroes of Newerth Custom Pack",
 		  desc: "A pack of custom items and heroes.",
-		  link: "personal_heroes_of_newerth.html"
+		  link: "personal_heroes_of_newerth_en.html"
 		},
 		{
 		  img: "img/happyland.png",
