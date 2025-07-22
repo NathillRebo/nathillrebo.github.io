@@ -24,88 +24,88 @@ const translations = {
 		</div>
 	  </div>
 	`,
-       projects: [
+			projects: [
         {
           img: "img/1.png",
-		  name: "Project Kongor",
+					name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
-		  link: "project_project_kongor_pl.html"
+					link: "project_project_kongor_pl.html"
         },
         {
           img: "img/2.png",
-		  name: "Heroes of Newerth: Reborn",
+					name: "Heroes of Newerth: Reborn",
           desc: "Heroes of Newerth: Reborn to remaster oryginalnego Heroes of Newerth (HoN), niegdyś rywala takich gier jak DotA czy League of Legends. Opracowana przez Kongor Studios - składającego się z byłych programistów S2 Games i członków społeczności - gra została zbudowana na nowym silniku Juvio Engine, oferując ulepszoną grafikę, wydajność i lepsze wrażenia z gry wieloosobowej w porównaniu do swojej poprzedniczki.",
-		  link: "project_hon_reborn_pl.html"
+					link: "project_hon_reborn_pl.html"
         },
         {
           img: "img/3.png",
-		  name: "Crash Bandicoot: Back in Time",
-          desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
-		  link: "project_crash_bandicoot_back_in_time_pl.html"
+					name: "Crash Bandicoot: Back in Time",
+					desc: "Darmowa fanowska platformówka z kultowym jamrajem w roli głównej. Gra zawiera 25 poziomów - 10 klasycznych, 10 w stylu poziomów z kaset z Crash Bandicoot 4: It's About Time oraz 5 prób Uka-Uki, ponadto dostępny jest kreator poziomów 2D.",
+					link: "project_crash_bandicoot_back_in_time_pl.html"
         }
       ],
       personal: [
-		{
-		  img: "img/griftlands.png",
-		  name: "Griftlands Content Pack",
-		  desc: "Zestaw nowych bossów, kart, wszczepów i talentów do wyboru do gry Griftlands.",
-		  link: "personal_griftlands.html"
-		},
-		{
-		  img: "img/darkest_dungeon.png",
-		  name: "Darkest Dungeon Trinkets Pack",
-		  desc: "Zestaw ponad 300 nowych przedmiotów do gry Darkest Dungeon.",
-		  link: "personal_darkest_dungeon.html"
-		},
-		{
-		  img: "img/heroes_of_newerth.png",
-		  name: "Heroes of Newerth Custom Pack",
-		  desc: "Zestaw własnych bohaterów i przedmiotów do gry Heroes of Newerth.",
-		  link: "personal_heroes_of_newerth.html"
-		},
-		{
-		  img: "img/happyland.png",
-		  name: "Happyland Adventures Map Pack",
-		  desc: "Zestaw poziomów do gry Happyland Adventures, ze zwiększającym się poziomem trudności.",
-		  link: "personal_happyland_adventures.html"
-		},
-		{
-		  img: "img/warcraft_random_arena.png",
-		  name: "Warcraft III Random Arena",
-		  desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
-		  link: "personal_warcraft_random_arena.html"
-		},
-		{
-		  img: "img/cards_of_war.png",
-		  name: "Cards of War",
-		  desc: "Gra karciana, podobna do gry Hearthstone, ale z innym systemem many oraz planszą, po której jednostki się przemieszczają.",
-		  link: "personal_cards_of_war.html"
-		},
-		{
-		  img: "img/talisman.png",
-		  name: "Talisman Content Pack",
-		  desc: "Zestaw dodatkowych komponentów do gry, takich jak karty Poszukiwaczy, Zaklęć, Przedmiotów, Zakończeń, Przygody i innych.",
-		  link: "personal_talisman.html"
-		},
-		{
-		  img: "img/heroes_v.png",
-		  name: "Heroes of Might and Magic 5.5 Hero Pack",
-		  desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
-		  link: "personal_heroes_vv.html"
-		},
-		{
-		  img: "img/warhammer_dark_heresy_2nd.png",
-		  name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
-		  desc: "Skoroszyt z tabelami do gry, z dodatkowymi opcjami do tworzenia postaci oraz nowymi przedmiotami.",
-		  link: "personal_warhammer_dark_heresy_2nd.html"
-		},
-		{
-		  img: "img/my_rpg.png",
-		  name: "Custom Tabletop RPG System",
-		  desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
-		  link: "personal_my_rpg.html"
-		}
-	  ]
+				{
+					img: "img/griftlands.png",
+					name: "Griftlands Content Pack",
+					desc: "Zestaw nowych bossów, kart, wszczepów i talentów do wyboru do gry Griftlands.",
+					link: "personal_griftlands.html"
+				},
+				{
+					img: "img/darkest_dungeon.png",
+					name: "Darkest Dungeon Trinkets Pack",
+					desc: "Zestaw ponad 300 nowych przedmiotów do gry Darkest Dungeon.",
+					link: "personal_darkest_dungeon.html"
+				},
+				{
+					img: "img/heroes_of_newerth.png",
+					name: "Heroes of Newerth Custom Pack",
+					desc: "Zestaw własnych bohaterów i przedmiotów do gry Heroes of Newerth.",
+					link: "personal_heroes_of_newerth.html"
+				},
+				{
+					img: "img/happyland.png",
+					name: "Happyland Adventures Map Pack",
+					desc: "Zestaw poziomów do gry Happyland Adventures, ze zwiększającym się poziomem trudności.",
+					link: "personal_happyland_adventures_pl.html"
+				},
+				{
+					img: "img/warcraft_random_arena.png",
+					name: "Warcraft III Random Arena",
+					desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
+					link: "personal_warcraft_random_arena.html"
+				},
+				{
+					img: "img/cards_of_war.png",
+					name: "Cards of War",
+					desc: "Gra karciana, podobna do gry Hearthstone, ale z innym systemem many oraz planszą, po której jednostki się przemieszczają.",
+					link: "personal_cards_of_war.html"
+				},
+				{
+					img: "img/talisman.png",
+					name: "Talisman Content Pack",
+					desc: "Zestaw dodatkowych komponentów do gry, takich jak karty Poszukiwaczy, Zaklęć, Przedmiotów, Zakończeń, Przygody i innych.",
+					link: "personal_talisman.html"
+				},
+				{
+					img: "img/heroes_v.png",
+					name: "Heroes of Might and Magic 5.5 Hero Pack",
+					desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
+					link: "personal_heroes_vv.html"
+				},
+				{
+					img: "img/warhammer_dark_heresy_2nd.png",
+					name: "Warhammer Dark Heresy 2nd Edition Extended Datasheet",
+					desc: "Skoroszyt z tabelami do gry, z dodatkowymi opcjami do tworzenia postaci oraz nowymi przedmiotami.",
+					link: "personal_warhammer_dark_heresy_2nd.html"
+				},
+				{
+					img: "img/my_rpg.png",
+					name: "Custom Tabletop RPG System",
+					desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
+					link: "personal_my_rpg.html"
+				}
+			]
     }
   },
   en: {
@@ -158,7 +158,7 @@ const translations = {
 		  img: "img/happyland.png",
 		  name: "Happyland Adventures Map Pack",
 		  desc: "A pack of several levels of increasing difficulty.",
-		  link: "personal_happyland.html"
+		  link: "personal_happyland_adventures_en.html"
 		},
 		{
 		  img: "img/warcraft_random_arena.png",
