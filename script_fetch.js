@@ -106,36 +106,35 @@ function updateContent() {
 
     addFooter();
   } else if (currentPage.startsWith("personal_")) {
-		const allPersonal = translations.pl.content.personal.concat(translations.en.content.personal);
-		const personal = allPersonal.find(p => {
-			const linkObj = typeof p.link === 'object' ? p.link : { pl: p.link, en: p.link };
-			return getPageId(linkObj.pl) === currentPage || getPageId(linkObj.en) === currentPage;
-		});
+			const allPersonal = translations.pl.content.personal.concat(translations.en.content.personal);
 
-		let file;
-		if (personal) {
-			const linkObj = typeof personal.link === 'object' ? personal.link : { pl: personal.link, en: personal.link };
-			file = `/personal/${linkObj[currentLang]}`;
-		} else {
-			file = `/personal/${currentPage}.html`; // fallback
-		}
-
-		fetch(file)
-			.then(res => {
-				if (!res.ok) throw new Error("Nie znaleziono pliku");
-				return res.text();
-			})
-			.then(html => {
-				main.innerHTML = `<div class="project-wrapper">${html}</div>`;
-			})
-			.catch(err => {
-				main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
+			const personal = allPersonal.find(p => {
+				const base = getPageId(p.link).replace(/_(pl|en)$/, '');
+				const currentBase = currentPage.replace(/_(pl|en)$/, '');
+				return base === currentBase;
 			});
 
-		addFooter();
-	} else {
-    main.innerHTML = "<p>Nieznana strona.</p>";
-		addFooter();
+			let file;
+			if (personal) {
+				const base = getPageId(personal.link).replace(/_(pl|en)$/, '');
+				file = `/personal/${base}_${currentLang}.html`;
+			} else {
+				file = `/personal/${currentPage}.html`; // fallback
+			}
+
+			fetch(file)
+				.then(res => {
+					if (!res.ok) throw new Error("Nie znaleziono pliku");
+					return res.text();
+				})
+				.then(html => {
+					main.innerHTML = `<div class="project-wrapper">${html}</div>`;
+				})
+				.catch(err => {
+					main.innerHTML = `<div class="card"><p>Błąd podczas ładowania projektu: ${err.message}</p></div>`;
+				});
+
+			addFooter();
   }
 }
 
