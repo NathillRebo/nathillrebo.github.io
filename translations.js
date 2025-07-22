@@ -26,7 +26,7 @@ const translations = {
 	`,
 			projects: [
         {
-          img: "img/1.png",
+          img: "/img/project_kongor.png",
 					name: "Project Kongor",
           desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
 					link: "project_project_kongor_pl.html"
@@ -46,7 +46,7 @@ const translations = {
       ],
       personal: [
 				{
-					img: "img/griftlands.png",
+					img: "/img/griftlands.png",
 					name: "Griftlands Content Pack",
 					desc: "Zestaw nowych bossów, kart, wszczepów i talentów do wyboru do gry Griftlands.",
 					link: "personal_griftlands_pl.html"
@@ -117,7 +117,7 @@ const translations = {
     content: {
       projects: [
         {
-          img: "img/1.png",
+          img: "/img/project_kongor.png",
 					name: "Project Kongor",
           desc: "Heroes of Newerth private server, with ~760000 registered accounts and ~10000 players online at peak moments.",
 					link: "project_project_kongor_en.html"
@@ -137,7 +137,7 @@ const translations = {
       ],
       personal: [
 				{
-					img: "img/griftlands.png",
+					img: "/img/griftlands.png",
 					name: "Griftlands Content Pack",
 					desc: "A pack of new bosses, grafts, perks, cards and upgrades.",
 					link: "personal_griftlands_en.html"
@@ -180,7 +180,7 @@ const translations = {
 				},
 				{
 					img: "img/heroes_v.png",
-					name: "Heroes of Might and Magic %.5 Hero Pack",
+					name: "Heroes of Might and Magic 5.5 Hero Pack",
 					desc: "A pack ofcustom heroes, many of them with unique specialties.",
 					link: "personal_warcraft_random_arena.html"
 				},
