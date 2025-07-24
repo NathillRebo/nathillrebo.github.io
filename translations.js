@@ -55,7 +55,7 @@ const translations = {
 					img: "img/darkest_dungeon.png",
 					name: "Darkest Dungeon Trinkets Pack",
 					desc: "Zestaw ponad 300 nowych przedmiotów do gry Darkest Dungeon.",
-					link: "personal_darkest_dungeon.html"
+					link: "personal_darkest_dungeon_pl.html"
 				},
 				{
 					img: "img/heroes_of_newerth.png",
@@ -73,19 +73,19 @@ const translations = {
 					img: "img/warcraft_3.png",
 					name: "Warcraft III Random Arena",
 					desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
-					link: "personal_warcraft_random_arena.html"
+					link: "personal_warcraft_3_pl.html"
 				},
 				{
 					img: "img/cards_of_war.png",
 					name: "Cards of War",
 					desc: "Gra karciana, podobna do gry Hearthstone, ale z innym systemem many oraz planszą, po której jednostki się przemieszczają.",
-					link: "personal_cards_of_war.html"
+					link: "personal_cards_of_war_pl.html"
 				},
 				{
 					img: "img/talisman.png",
 					name: "Talisman Content Pack",
 					desc: "Zestaw dodatkowych komponentów do gry, takich jak karty Poszukiwaczy, Zaklęć, Przedmiotów, Zakończeń, Przygody i innych.",
-					link: "personal_talisman.html"
+					link: "personal_talisman_pl.html"
 				},
 				{
 					img: "img/heroes_vv.png",
@@ -103,7 +103,7 @@ const translations = {
 					img: "img/my_rpg.png",
 					name: "Custom Tabletop RPG System",
 					desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
-					link: "personal_my_rpg.html"
+					link: "personal_my_rpg_pl.html"
 				}
 			]
     }
@@ -146,7 +146,7 @@ const translations = {
 					img: "img/darkest_dungeon.png",
 					name: "Darkest Dungeon Trinkets Pack",
 					desc: "A pack of over 300 custom trinkets.",
-					link: "personal_darkest_dungeon.html"
+					link: "personal_darkest_dungeon_en.html"
 				},
 				{
 					img: "img/heroes_of_newerth.png",
@@ -164,13 +164,13 @@ const translations = {
 					img: "img/warcraft_3.png",
 					name: "Warcraft III Random Arena",
 					desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
-					link: "personal_warcraft_random_arena.html"
+					link: "personal_warcraft_3_en.html"
 				},
 				{
 					img: "img/cards_of_war.png",
 					name: "Cards of War",
 					desc: "A card game for up to 6 players, where each player plays their units and moves them towards their enemies to defeat them. Hearthstone with board.",
-					link: "personal_warcraft_random_arena.html"
+					link: "personal_cards_of_war_en.html"
 				},
 				{
 					img: "img/talisman.png",
@@ -194,7 +194,7 @@ const translations = {
 					img: "img/my_rpg.png",
 					name: "Custom Tabletop RPG System",
 					desc: "A tabletop PRG for a magic post-apocalyptic setting with system focusing on unique weapons and creative crafting.",
-					link: "personal_my_rpg.html"
+					link: "personal_my_rpg_en.html"
 				}
 			],
       about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and drawing tables with parameters of given game elements. I got into game design when I got acquainted with Warcraft III and together with my friends we played maps, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as what_you_got and Rajjix. My favorite games are tactical games, turn-based games and games that can be expanded with additional content.",
