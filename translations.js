@@ -91,7 +91,7 @@ const translations = {
 					img: "img/heroes_vv.png",
 					name: "Heroes of Might and Magic 5.5 Hero Pack",
 					desc: "Zestaw dodatkowych bohaterów do gry Heroes of Might and Magic 5.5, większość z nich z unikalnymi specjalizacjami.",
-					link: "personal_heroes_vv.html"
+					link: "personal_heroes_vv_pl.html"
 				},
 				{
 					img: "img/warhammer_dark_heresy_2nd.png",
@@ -176,13 +176,13 @@ const translations = {
 					img: "img/talisman.png",
 					name: "Talisman Content Pack",
 					desc: "A pack of new characters, adventure cards, dungeon adventure cards, spells, items, endings and other in-game components.",
-					link: "personal_warcraft_random_arena.html"
+					link: "personal_talisman_en.html"
 				},
 				{
 					img: "img/heroes_vv.png",
 					name: "Heroes of Might and Magic 5.5 Hero Pack",
 					desc: "A pack ofcustom heroes, many of them with unique specialties.",
-					link: "personal_warcraft_random_arena.html"
+					link: "personal_heroes_vv_en.html"
 				},
 				{
 					img: "img/warhammer_dark_heresy_2nd.png",
