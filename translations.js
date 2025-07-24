@@ -64,7 +64,7 @@ const translations = {
 					link: "personal_heroes_of_newerth_pl.html"
 				},
 				{
-					img: "img/happyland.png",
+					img: "img/happyland_adventures.png",
 					name: "Happyland Adventures Map Pack",
 					desc: "Zestaw poziomów do gry Happyland Adventures, ze zwiększającym się poziomem trudności.",
 					link: "personal_happyland_adventures_pl.html"
@@ -155,7 +155,7 @@ const translations = {
 					link: "personal_heroes_of_newerth_en.html"
 				},
 				{
-					img: "img/happyland.png",
+					img: "img/happyland_adventures.png",
 					name: "Happyland Adventures Map Pack",
 					desc: "A pack of several levels of increasing difficulty.",
 					link: "personal_happyland_adventures_en.html"
