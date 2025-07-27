@@ -71,8 +71,8 @@ const translations = {
 				},
 				{
 					img: "img/warcraft_3.png",
-					name: "Warcraft III Random Arena",
-					desc: "Mapa do gry Warcraft III, w której kierujesz losową jednostką i musisz pokonać wrogie losowe jednostki, żeby stać się najlepszą losową jednostką.",
+					name: "Warcraft III Custom Maps",
+					desc: "Różne mapy, które stworzyłem bądź mocno zmieniłem.",
 					link: "personal_warcraft_3_pl.html"
 				},
 				{
@@ -162,8 +162,8 @@ const translations = {
 				},
 				{
 					img: "img/warcraft_3.png",
-					name: "Warcraft III Random Arena",
-					desc: "An arena where you fight as a random creep and kill other random creeps to evolve into the best creep.",
+					name: "Warcraft III Custom Maps",
+					desc: "Various maps that I have either created or heavily altered.",
 					link: "personal_warcraft_3_en.html"
 				},
 				{
