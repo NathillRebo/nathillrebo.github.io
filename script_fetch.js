@@ -51,7 +51,6 @@ function updateNav() {
   navButtons[0].textContent = t.projects;
   navButtons[1].textContent = t.personal;
   navButtons[2].textContent = t.about;
-  navButtons[3].textContent = t.contact;
 }
 
 function updateContent() {
@@ -74,7 +73,7 @@ function updateContent() {
       </div>
     `;
 		addFooter();
-  } else if (currentPage === "about" || currentPage === "contact") {
+  } else if (currentPage === "about") {
     main.innerHTML = `<div class="card">${t.content[currentPage]}</div>
 `;
    } else if (currentPage.startsWith("project_")) {
