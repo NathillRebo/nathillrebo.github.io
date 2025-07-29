@@ -5,25 +5,8 @@ const translations = {
     projects: "Projekty",
     personal: "Własna twórczość",
     about: "O mnie",
-    contact: "Kontakt",
     content: {
-      about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać nową zawartość do tych gier, czasem zajmuje się projektowaniem nowych gier. Podczas swojej przygody z game designem udało mi się też zaprzjaźnić z kilkoma pro graczami, takimi jak Chris 'what_you_got' Benas oraz Roy 'Rajjix' Rajji. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.`,
-      contact: `
-	  <div class="contact-card">
-		<div class="contact-left">
-		  <h2>Napisz do mnie</h2>
-		  <p>Jeśli masz pytania, propozycje współpracy lub po prostu chcesz się przywitać – nie wahaj się napisać!</p>
-		</div>
-		<div class="contact-right">
-		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
-			<input type="text" name="name" placeholder="Twoje imię" required>
-			<input type="email" name="email" placeholder="Twój email" required>
-			<textarea name="message" rows="6" placeholder="Wiadomość..." required></textarea>
-			<button type="submit">Wyślij</button>
-		  </form>
-		</div>
-	  </div>
-	`,
+      about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać nową zawartość do tych gier, czasem zajmuje się projektowaniem nowych gier. Podczas swojej przygody z game designem udało mi się też zaprzjaźnić z kilkoma pro graczami, takimi jak Chris 'what_you_got' Benas oraz Roy 'Rajjix' Rajji. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.`,,
 			projects: [
         {
           img: "/img/project_kongor.png",
@@ -113,7 +96,6 @@ const translations = {
     projects: "Projects",
     personal: "Personal",
     about: "About",
-    contact: "Contact",
     content: {
       projects: [
         {
@@ -131,7 +113,7 @@ const translations = {
         {
           img: "/img/crash_bandicoot_back_in_time.png",
 					name: "Crash Bandicoot: Back in Time",
-          desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a level editor.",
+          desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a 2D level editor.",
 					link: "project_crash_bandicoot_back_in_time_en.html"
         }
       ],
@@ -181,7 +163,7 @@ const translations = {
 				{
 					img: "img/heroes_vv.png",
 					name: "Heroes of Might and Magic 5.5 Hero Pack",
-					desc: "A pack ofcustom heroes, many of them with unique specialties.",
+					desc: "A pack of custom heroes, many of them with unique specialties.",
 					link: "personal_heroes_vv_en.html"
 				},
 				{
@@ -197,23 +179,7 @@ const translations = {
 					link: "personal_my_rpg_en.html"
 				}
 			],
-      about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and drawing tables with parameters of given game elements. I got into game design when I got acquainted with Warcraft III and together with my friends we played maps, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as Chris 'what_you_got' Benas and Roy 'Rajjix' Rajji. My favorite games are tactical games, turn-based games and games that can be expanded with additional content.",
-      contact: `
-	  <div class="contact-card">
-		<div class="contact-left">
-		  <h2>Contact Me</h2>
-		  <p>If you have any questions, collaboration ideas, or just want to say hi – feel free to write!</p>
-		</div>
-		<div class="contact-right">
-		  <form action="mailto:dmarcinowski3@gmail.com" method="POST" enctype="text/plain">
-			<input type="text" name="name" placeholder="Your name" required>
-			<input type="email" name="email" placeholder="Your email" required>
-			<textarea name="message" rows="6" placeholder="Message..." required></textarea>
-			<button type="submit">Send</button>
-		  </form>
-		</div>
-	  </div>
-	`
+      about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and tables with parameters of given game elements. I got into game design when I started playing Warcraft III - a game, which I have played together with my friends, playing the maps I avidly edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as Chris 'what_you_got' Benas and Roy 'Rajjix' Rajji. My favorite games are tactical games, turn-based games and games that can be easily expanded with additional content.",
     }
   }
 };
