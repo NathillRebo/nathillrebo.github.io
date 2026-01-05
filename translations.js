@@ -6,12 +6,12 @@ const translations = {
     personal: "Własna twórczość",
     about: "O mnie",
     content: {
-      about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać nową zawartość do tych gier, czasem zajmuje się projektowaniem nowych gier. Podczas swojej przygody z game designem udało mi się też zaprzjaźnić z kilkoma pro graczami, takimi jak Chris 'what_you_got' Benas oraz Roy 'Rajjix' Rajji. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.<br><br>Jeśli chcesz się mnie o coś spytać, poprosić bądź po prostu pogadać, śmiało pisz:<br>Email: dmarcinowski3@gmail.com<br>Discord: Nathill`,
+      about: `Dzień dobry!<br>Jestem fanem gier wszelkiej maści - czy to komputerowych, czy planszowych, strategicznych czy platformowych. Już od dzieciństwa zajmowałem się rysowaniem poziomów oraz kreśleniem tabelek z parametrami danych elementów gry. W game design wszedłem, gdy poznałem Warcrafta III i razem z kolegami graliśmy w mapy, które namiętnie edytowałem. Skończyłem studia informatyczne na Zachodniopomorskim Uniwersytecie Technicznym. Obecnie najbardziej interesuje się game designem oraz sztuczną inteligencją. W wolnych chwilach lubię grać w gry i dodawać do nich nową zawartość, czasem zajmuje się projektowaniem nowych gier. Najlepiej odnajduję się przy tworzeniu/modyfikowaniu obiektów, które są z reguły liczne - talenty, przedmioty, czy bohaterowie, ale też potrafię przenosić mechaniki z jednej gry do innej - przy tworzeniu własnego systemu RPG odwzorowałem część mechanik z Darkest Dungeon, a przy prowadzeniu sesju RPG potrafilem wykorzystać gry platformowe do projektowania walk. Podczas tworzenia obiektów do gry, wykorzystuję matematykę do wstępnego balansu - przypisuję do każdej mechaniki jakąś wartość punktową, na podstawie analogicznych mechanik występujacych w podobnych grach, dzięki czemu już przy pierwszeych testach wynik jest względnie zbalansowany. Moje ulubione gry to gry taktyczne, turowe oraz takie, które można rozszerzać o dodatkową zawartość.<br><br>Jeśli chcesz się mnie o coś spytać, poprosić bądź po prostu pogadać, śmiało pisz:<br>Email: dmarcinowski3@gmail.com<br>Discord: Nathill`,
 			projects: [
         {
           img: "/img/project_kongor.png",
 					name: "Project Kongor",
-          desc: "Prywatny serwer do gry Heroes of Newerth, z ~760000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
+          desc: "Prywatny serwer do gry Heroes of Newerth, z ~800000 zarejestrowanymi kontami i ~10000 graczami online w szczytowym momencie.",
 					link: "project_project_kongor_pl.html"
         },
         {
@@ -101,7 +101,7 @@ const translations = {
         {
           img: "/img/project_kongor.png",
 					name: "Project Kongor",
-          desc: "Heroes of Newerth private server, with ~760000 registered accounts and ~10000 players online at peak moments.",
+          desc: "Heroes of Newerth private server, with ~800000 registered accounts and ~10000 players online at peak moments.",
 					link: "project_project_kongor_en.html"
         },
         {
@@ -113,7 +113,7 @@ const translations = {
         {
           img: "/img/crash_bandicoot_back_in_time.png",
 					name: "Crash Bandicoot: Back in Time",
-          desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 10 trials of Uka-Uka. The game also has a 2D level editor.",
+          desc: "Free fan-made platform game with iconic bandicoot. The game has 25 levels - 10 classic, 10 flashback-style and 5 trials of Uka-Uka. The game also has a 2D level editor.",
 					link: "project_crash_bandicoot_back_in_time_en.html"
         }
       ],
@@ -179,7 +179,7 @@ const translations = {
 					link: "personal_my_rpg_en.html"
 				}
 			],
-      about: "Welcome!<br>I am a fan of games of all kinds - whether computer, board, strategy or platform games. Since childhood I have been involved in drawing levels and tables with parameters of given game elements. I got into game design when I started playing Warcraft III - a game, which I have played together with my friends, playing the maps I avidly edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time I like to play games and add new content to these games, sometimes I am involved in designing new games. During my adventure with game design, I also managed to befriend some pro gamers, such as Chris 'what_you_got' Benas and Roy 'Rajjix' Rajji. My favorite games are tactical games, turn-based games and games that can be easily expanded with additional content.<br><br>If you want to ask me something, inquire a bit more or just chill out, hit me up:<br>Email: dmarcinowski3@gmail.com<br>Discord: Nathill"
+      about: "Good morning!<br>I am a fan of all kinds of games – whether computer, board, strategy, or platform games. Since childhood, I have been drawing levels and sketching tables with the parameters of game elements. I got into game design when I discovered Warcraft III and played custom scenarios with my friends, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time, I like to play games and add new content to them, and sometimes I design new games. I feel most comfortable creating/modifying entities, which are usually numerous—talents, items, or heroes—but I can also transfer mechanics from one game to another. When creating my own RPG system, I replicated some of the mechanics from Darkest Dungeon, and when running an RPG session, I was able to use platform games to design battles. When creating entities for the game, I use mathematics for initial balancing - I assign a point value to each mechanic, based on analogous mechanics found in similar games, so that the results are relatively balanced even during the first tests. My favorite games are tactical, turn-based games and those that can be expanded with additional content.<br><br>If you want to ask me something, inquire a bit more or just chill out, hit me up:<br>Email: dmarcinowski3@gmail.com<br>Discord: Nathill"
     }
   }
 };
