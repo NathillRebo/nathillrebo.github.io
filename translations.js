@@ -87,6 +87,12 @@ const translations = {
 					name: "Custom Tabletop RPG System",
 					desc: "Własny system RPG w świecie post-apo z magią, skupiony na broniach oraz tworzeniu przedmiotów.",
 					link: "personal_my_rpg_pl.html"
+				},
+				{
+					img: "img/vcmi.png",
+					name: "Heroes of Might and Magic III VCMI The Greates Expansion",
+					desc: "Zestaw dodatkowych artefaktów, umiejętności drugorzędnych, zaklęć, bohaterów i obiektów na mapie przygody.",
+					link: "personal_vcmi_expansion_pl.html"
 				}
 			]
     }
@@ -177,6 +183,12 @@ const translations = {
 					name: "Custom Tabletop RPG System",
 					desc: "A tabletop PRG for a magic post-apocalyptic setting with system focusing on unique weapons and creative crafting.",
 					link: "personal_my_rpg_en.html"
+				},
+				{
+					img: "img/vcmi.png",
+					name: "Heroes of Might and Magic III VCMI The Greates Expansion",
+					desc: "A pack of custom artifacts, spells, secondary skills, heroes and map objects.",
+					link: "personal_vcmi_expansion_en.html"
 				}
 			],
       about: "Good morning!<br>I am a fan of all kinds of games – whether computer, board, strategy, or platform games. Since childhood, I have been drawing levels and sketching tables with the parameters of game elements. I got into game design when I discovered Warcraft III and played custom scenarios with my friends, which I passionately edited. I graduated from the West Pomeranian University of Technology with a degree in computer science. Currently, I am most interested in game design and artificial intelligence. In my free time, I like to play games and add new content to them, and sometimes I design new games. I feel most comfortable creating/modifying entities, which are usually numerous—talents, items, or heroes—but I can also transfer mechanics from one game to another. When creating my own RPG system, I replicated some of the mechanics from Darkest Dungeon, and when running an RPG session, I was able to use platform games to design battles. When creating entities for the game, I use mathematics for initial balancing - I assign a point value to each mechanic, based on analogous mechanics found in similar games, so that the results are relatively balanced even during the first tests. My favorite games are tactical, turn-based games and those that can be expanded with additional content.<br><br>If you want to ask me something, inquire a bit more or just chill out, hit me up:<br>Email: dmarcinowski3@gmail.com<br>Discord: Nathill"
